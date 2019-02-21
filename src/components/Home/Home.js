@@ -3,6 +3,10 @@ import './Home.css'
 
 class Home extends Component {
     render() {
+        var color = {
+            color: "#808080",
+        }
+
         return (
             <div className="home">
                   
@@ -16,7 +20,10 @@ class Home extends Component {
                             </ul>
                         </nav> 
                         <div className="intro">
-                            <h1 className="logo">Shakira Weir,</h1>
+                            <h1 className="logo">
+                            <span className="first-word" style={color}>S</span>hakira  
+                             <span className="first-word" style={color}> W</span >eir<span style={color}>,</span>
+                            </h1>
                             <p className="title">Web Developer | Content Creator</p>
                         </div>
                     <section className="colorblock-two"></section>
