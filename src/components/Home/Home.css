@@ -60,7 +60,7 @@ nav {
     padding: 5px 25px;
 }
 
-.left:hover {
+.left:hover, .right:hover {
     background: #293d3d;
     border: solid #595959 1px;
     color: #fff;
@@ -98,6 +98,7 @@ ul {
     font-size: 16px; 
     font-weight: 400;
     padding-top: 15px;
+    /* border: solid red 1px; */
 }
 
 .main-nav {
@@ -111,7 +112,7 @@ ul {
     width: 100vw;
     align-items: center;
     justify-content: center;
-    border: solid red 1px;
+    /* border: solid red 1px; */
 }
 
 .colorblock-one {
@@ -126,6 +127,16 @@ ul {
     height: 82vh;
 }
 
-.contacts {
-    position: absolute;
+blockquote {
+    font-size: 25px;
+        /* border: solid red 1px; */
+        font-family: 'Roboto', sans-serif;
+        padding-bottom: 55px;
+}
+
+#contact {
+    width: 100vw;
+    height: 100vh;
+    /* font-size: 60px; */
+    /* border: solid red 1px; */
 }
