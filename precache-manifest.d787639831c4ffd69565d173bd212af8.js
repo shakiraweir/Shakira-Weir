@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "3d2f3f7090a63de61dd1",
+    "revision": "c24e461e4a6ac24131fe",
     "url": "/shakira-weir/static/css/main.721b8d5f.chunk.css"
   },
   {
-    "revision": "3d2f3f7090a63de61dd1",
-    "url": "/shakira-weir/static/js/main.3d2f3f70.chunk.js"
+    "revision": "c24e461e4a6ac24131fe",
+    "url": "/shakira-weir/static/js/main.c24e461e.chunk.js"
   },
   {
     "revision": "0f43d5d56431b5d9c8b3",
@@ -28,12 +28,12 @@ self.__precacheManifest = [
     "url": "/shakira-weir/static/media/fa-regular-400.5dd3976c.woff"
   },
   {
-    "revision": "414ff5daad323a1c47c5177d4bd29674",
-    "url": "/shakira-weir/static/media/fa-regular-400.414ff5da.eot"
-  },
-  {
     "revision": "f6c6f6c8cb7784254ad00056f6fbd74e",
     "url": "/shakira-weir/static/media/fa-regular-400.f6c6f6c8.ttf"
+  },
+  {
+    "revision": "414ff5daad323a1c47c5177d4bd29674",
+    "url": "/shakira-weir/static/media/fa-regular-400.414ff5da.eot"
   },
   {
     "revision": "4b115e1153a9ea339d6a0bb284cc8ed3",
@@ -44,20 +44,20 @@ self.__precacheManifest = [
     "url": "/shakira-weir/static/media/fa-solid-900.46280631.woff2"
   },
   {
-    "revision": "b90365bccdabd68c6c03902b4b141f09",
-    "url": "/shakira-weir/static/media/fa-brands-400.b90365bc.woff"
-  },
-  {
     "revision": "61969d433bf265b9717a6c357a1e04e4",
     "url": "/shakira-weir/static/media/fa-solid-900.61969d43.woff"
   },
   {
-    "revision": "d9d17590c975aad1be0ddab673f9c769",
-    "url": "/shakira-weir/static/media/fa-brands-400.d9d17590.eot"
+    "revision": "b90365bccdabd68c6c03902b4b141f09",
+    "url": "/shakira-weir/static/media/fa-brands-400.b90365bc.woff"
   },
   {
     "revision": "c39278f7abfc798a241551194f55e29f",
     "url": "/shakira-weir/static/media/fa-brands-400.c39278f7.ttf"
+  },
+  {
+    "revision": "d9d17590c975aad1be0ddab673f9c769",
+    "url": "/shakira-weir/static/media/fa-brands-400.d9d17590.eot"
   },
   {
     "revision": "e7e957c87c454bccaa3bf9fdaa6874f8",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/shakira-weir/static/media/fa-solid-900.82905d8d.svg"
   },
   {
-    "revision": "f29928e268fbb00ac2b0fbd5b1858965",
+    "revision": "90688636188bec52b8daa65c852e94ec",
     "url": "/shakira-weir/index.html"
   }
 ];
