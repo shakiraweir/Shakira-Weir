@@ -2,14 +2,18 @@ import React, { Component } from 'react';
 import './Resume.css'
 
 class Resume extends Component {
+    
     render() {
+        const style= {
+            color: '#293d3d'
+        }
         return (
             <div>
                 <div className="home">
                     
                     <section className="colorblock-one"></section>
                         <div className="heading">
-                            <h1 className="title">Experience</h1>
+                            <h1 className="title-exp">Experience</h1>
                                 <div className="exp">
                                     <div className="exp-subtitle">
                                         <h4>Career</h4>
@@ -58,7 +62,7 @@ class Resume extends Component {
                     </div>
                 <div id='skills-home'>
                 <section className="colorblock-three">
-                <div className="heading skills">
+                <div className="heading-skills">
                             <h1 className="title skills">Skills</h1>
                                 <div className="exp skills">
                                     <div className="exp-subtitle skills">
@@ -72,9 +76,9 @@ class Resume extends Component {
                                                         </div>
 
                                                         <div>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" style={style}></i>
                                                         <i class="fas fa-star"></i>
                                                         <i class="fas fa-star"></i>
                                                         </div>
@@ -91,8 +95,8 @@ class Resume extends Component {
                                                         </div>
 
                                                         <div>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" style={style}></i>
                                                         <i class="fas fa-star"></i>
                                                         <i class="fas fa-star"></i>
                                                         <i class="fas fa-star"></i>
@@ -106,8 +110,8 @@ class Resume extends Component {
                                                         </div>
 
                                                         <div>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" style={style}></i>
                                                         <i class="fas fa-star"></i>
                                                         <i class="fas fa-star"></i>
                                                         <i class="fas fa-star"></i>
@@ -128,11 +132,11 @@ class Resume extends Component {
                                                         </div>
                                                         
                                                         <div>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" style={style}></i>
                                                         </div>
                                                     </div>
 
@@ -142,23 +146,23 @@ class Resume extends Component {
                                                         </div>
 
                                                         <div>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" ></i>
                                                         <i class="fas fa-star"></i>
                                                         </div>
                                                     </div>
 
                                                     <div className="skill">
                                                         <div>
-                                                        <li>Sass</li>
+                                                        <li>Sass/SCSS</li>
                                                         </div>
 
                                                         <div>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" style={style}></i>
                                                         <i class="fas fa-star"></i>
                                                         <i class="fas fa-star"></i>
                                                         </div>
@@ -171,8 +175,8 @@ class Resume extends Component {
                                                         </div>
 
                                                         <div>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" style={style}></i>
                                                         <i class="fas fa-star"></i>
                                                         <i class="fas fa-star"></i>
                                                         <i class="fas fa-star"></i>
@@ -186,8 +190,8 @@ class Resume extends Component {
                                                         </div>
 
                                                         <div>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" style={style}></i>
                                                         <i class="fas fa-star"></i>
                                                         <i class="fas fa-star"></i>
                                                         <i class="fas fa-star"></i>
@@ -201,9 +205,9 @@ class Resume extends Component {
                                                         </div>
 
                                                         <div>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" style={style}></i>
                                                         <i class="fas fa-star"></i>
                                                         <i class="fas fa-star"></i>
                                                         </div>
@@ -216,10 +220,10 @@ class Resume extends Component {
                                                         </div>
 
                                                         <div>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star"style={style}> </i>
                                                         <i class="fas fa-star"></i>
                                                         </div>
                                                     </div>
@@ -231,8 +235,8 @@ class Resume extends Component {
                                                         </div>
 
                                                         <div>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" style={style}></i>
                                                         <i class="fas fa-star"></i>
                                                         <i class="fas fa-star"></i>
                                                         <i class="fas fa-star"></i>
@@ -240,7 +244,7 @@ class Resume extends Component {
                                                     </div>
 
 
-                                                    <div className="skill">
+                                                    {/* <div className="skill">
                                                         <div>
                                                         <li>Redux</li>
                                                         </div>
@@ -252,7 +256,7 @@ class Resume extends Component {
                                                         <i class="fas fa-star"></i>
                                                         <i class="fas fa-star"></i>
                                                         </div>
-                                                    </div>
+                                                    </div> */}
                                                 </div> 
 
                                                 <div className='column-two'>
@@ -264,10 +268,10 @@ class Resume extends Component {
                                                         </div>
 
                                                         <div>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" style={style}></i>
                                                         <i class="fas fa-star"></i>
                                                         </div>
                                                     </div>      
@@ -278,9 +282,9 @@ class Resume extends Component {
                                                         </div>
 
                                                         <div>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" style={style}></i>
                                                         <i class="fas fa-star"></i>
                                                         <i class="fas fa-star"></i>
                                                         </div>
@@ -292,10 +296,10 @@ class Resume extends Component {
                                                         </div>
 
                                                         <div>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" style={style}></i>
                                                         <i class="fas fa-star"></i>
                                                         </div>
                                                     </div>
@@ -306,10 +310,10 @@ class Resume extends Component {
                                                         </div>
 
                                                         <div>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" > </i>
+                                                        <i class="fas fa-star" style={style}></i>
                                                         <i class="fas fa-star"></i>
                                                         </div>
                                                     </div>
@@ -320,9 +324,9 @@ class Resume extends Component {
                                                         </div>
 
                                                         <div>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" style={style}></i>
                                                         <i class="fas fa-star"></i>
                                                         <i class="fas fa-star"></i>
                                                         </div>
@@ -334,8 +338,8 @@ class Resume extends Component {
                                                         </div>
 
                                                         <div>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" style={style}></i>
                                                         <i class="fas fa-star"></i>
                                                         <i class="fas fa-star"></i>
                                                         <i class="fas fa-star"></i>
@@ -348,8 +352,8 @@ class Resume extends Component {
                                                         </div>
 
                                                         <div>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" style={style}></i>
                                                         <i class="fas fa-star"></i>
                                                         <i class="fas fa-star"></i>
                                                         <i class="fas fa-star"></i>
@@ -370,7 +374,7 @@ class Resume extends Component {
                                                         </div>
 
                                                         <div>
-                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star" ></i>
                                                         <i class="fas fa-star"></i>
                                                         <i class="fas fa-star"></i>
                                                         <i class="fas fa-star"></i>
@@ -381,7 +385,7 @@ class Resume extends Component {
                                                     
                                                     <div className="skill">
                                                         <div>
-                                                        <li>Jesli</li>
+                                                        <li>Jest</li>
                                                         </div>
 
                                                         <div>
@@ -403,11 +407,11 @@ class Resume extends Component {
                                                         </div>
 
                                                         <div>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" style={style}></i>
                                                         </div>
                                                     </div>  
 
@@ -417,16 +421,16 @@ class Resume extends Component {
                                                         </div>
 
                                                         <div>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star"style={style} ></i>
                                                         <i class="fas fa-star"></i>
                                                         </div>
                                                     </div>
 
                                                     
-                                                    <div className="skill">
+                                                    {/* <div className="skill">
                                                         <div>
                                                         <li>Heroku</li>
                                                         </div>
@@ -438,7 +442,7 @@ class Resume extends Component {
                                                         <i class="fas fa-star"></i>
                                                         <i class="fas fa-star"></i>
                                                         </div>
-                                                    </div>
+                                                    </div> */}
 
                                                     
                                                     <div className="skill">
@@ -447,9 +451,9 @@ class Resume extends Component {
                                                         </div>
 
                                                         <div>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" style={style}></i>
+                                                        <i class="fas fa-star" style={style}></i>
                                                         <i class="fas fa-star"></i>
                                                         <i class="fas fa-star"></i>
                                                         </div>
@@ -466,7 +470,7 @@ class Resume extends Component {
                 <div id='skills-home'>
                 <section className="colorblock-four">
                     <section id='contact'>
-                        <h1 className="title work">Work</h1>
+                        <h1 className="title work" id='projects'>Work</h1>
                         <div className="project-container">
                             <div className='project-display'>
                                 <img src="https://i.imgur.com/cMWXclQ.png?1" alt="Hangman Entry Page" width='400' height='400' />
@@ -477,9 +481,7 @@ class Resume extends Component {
                             <div className='project-display'>
                                 <img src="https://i.imgur.com/nXDMoeU.png?1" alt="Hangman Entry Page" width='400' height='400'/>
                                 <h3>Pearls of Wisdom</h3>
-                                <p>JavaScript | HTML | CSS | MongoDB | Express |  
-   NodeJS | Handlebars | Passport | API
-</p>
+                                <p>JavaScript | HTML | CSS | MongoDB | Express |  NodeJS | Handlebars | Passport | API</p>
                             </div>
 
                             <div className='project-display'>
@@ -501,8 +503,8 @@ class Resume extends Component {
     
                         <blockquote>“The illiterate of the 21st century will not be those who cannot read and write, but those who cannot learn, unlearn and relearn.” -Alvin Toffler</blockquote>
                         <div>
-                            <a href="https://www.linkedin.com/in/shakiraweir/"> <i class="fab fa-linkedin fa-3x"></i> </a>
-                            <a href="https://github.com/shakiraweir"> <i class="fab fa-github fa-3x"></i> </a>
+                            <a href="https://www.linkedin.com/in/shakiraweir/" target='_blank' rel='noopener noreferrer'> <i class="fab fa-linkedin fa-3x"></i> </a>
+                            <a href="https://github.com/shakiraweir" target='_blank' rel='noopener noreferrer'> <i class="fab fa-github fa-3x"></i> </a>
                             <a href="mailto: shakira.r.weir@gmail.com"> <i class="far fa-envelope fa-3x"></i> </a>
                         </div>
                     </section>

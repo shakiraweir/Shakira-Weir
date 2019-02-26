@@ -12,12 +12,14 @@ nav {
     font-weight: 600;
     font-size: 40px;
     /* color: #404040; */
+    /* border: solid blue 1px; */
+
 }
 
 .greeting {
     text-transform: capitalize;
     font-family: 'Roboto', sans-serif;
-    padding-top: 30px;
+    padding-top: 80px;
     font-size: 180px;
     margin-bottom: 0;
     /* border: solid blue 1px; */
@@ -86,8 +88,11 @@ Link, a {
     font-weight: 400;
     color: #747472;
 }
+
 li {
     list-style: none;
+        /* border: solid red 1px; */
+
 }
 
 ul {
@@ -98,13 +103,13 @@ ul {
     font-family: 'Roboto', sans-serif;
     font-size: 16px; 
     font-weight: 400;
-    padding-top: 15px;
+    padding-top: 10px;
     /* border: solid red 1px; */
 }
 
 .main-nav {
     border-bottom: solid #747472 1px;
-    padding-bottom: 2px;
+    padding-bottom: 1px;
 }
 
 .home {

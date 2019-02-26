@@ -1,6 +1,6 @@
 .heading {
     position: absolute;
-    top: 0;
+    top: 6%;
     width: 100%;
     text-align: left;
     margin-left: 20px;
@@ -9,18 +9,30 @@
     font-size: 40px;
     /* color: #404040; */
     /* border: solid blue 1px; */
-}
+} 
 
 
 .title {
     text-transform: capitalize;
     font-family: 'Roboto', sans-serif;
     text-align: left;
-    font-size: 120px;
+    font-size: 130px;
     margin-bottom: 0;
     margin-left: 75px;
     /* border: solid blue 1px; */
 }
+
+.title-exp {
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    font-size: 120px;
+    margin-bottom: 0;
+    margin-left: 75px;
+    margin-top: 10px; 
+    padding-bottom: 0;
+    /* border: solid blue 1px; */
+} 
 
 .jobs {
     display: block;
@@ -160,6 +172,7 @@
     width: 100%;
 }
 
+
 .title.work, .title.contact {
     /* text-align: left; */
     margin-left: 40px;
@@ -249,7 +262,7 @@ hr {
     /* border: solid blue 1px; */
     width: 50%;
     margin-bottom: 10px;
-    padding: 10px;
+    padding: 6px;
 
 }
 /* .exp-subtitle.skills { */

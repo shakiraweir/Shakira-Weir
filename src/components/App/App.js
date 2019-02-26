@@ -5,7 +5,7 @@ import { Route } from "react-router-dom"
 import About from '../About/About'
 // import Contact from '../Contact/Contact'
 import Resume from '../Resume/Resume'
-import { Link } from 'react-router-dom';
+import { Link, Switch } from 'react-router-dom';
 // import { library } from '@fortawesome/fontawesome-svg-core';
 // import { faEnvelope, faKey } from '@fortawesome/free-solid-svg-icons';
 
@@ -20,13 +20,12 @@ class App extends Component {
                   <li> <a href='/#contact'>Contact</a> </li>
               </ul>
             </nav> 
-      {/* <Switch> */}
+
+        <Switch>
         <Route path='/profile' exact render={() => <Resume /> } />
         <Route path='/' exact render={() => <Home /> } />
         <Route path='/about' exact render={() => <About /> } />
-        {/* <Route path='/about' exact render={() => <Contact /> } /> */}
-        
-      {/* </Switch> */}
+        </Switch>
       </div>
     );
   }
