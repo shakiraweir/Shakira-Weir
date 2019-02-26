@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "938358dde1ce51569c37",
+    "revision": "a6a3e34690eb7b345e8e",
     "url": "/shakira-weir/static/css/main.721b8d5f.chunk.css"
   },
   {
-    "revision": "938358dde1ce51569c37",
-    "url": "/shakira-weir/static/js/main.938358dd.chunk.js"
+    "revision": "a6a3e34690eb7b345e8e",
+    "url": "/shakira-weir/static/js/main.a6a3e346.chunk.js"
   },
   {
     "revision": "0f43d5d56431b5d9c8b3",
@@ -28,12 +28,12 @@ self.__precacheManifest = [
     "url": "/shakira-weir/static/media/fa-regular-400.5dd3976c.woff"
   },
   {
-    "revision": "f6c6f6c8cb7784254ad00056f6fbd74e",
-    "url": "/shakira-weir/static/media/fa-regular-400.f6c6f6c8.ttf"
-  },
-  {
     "revision": "414ff5daad323a1c47c5177d4bd29674",
     "url": "/shakira-weir/static/media/fa-regular-400.414ff5da.eot"
+  },
+  {
+    "revision": "f6c6f6c8cb7784254ad00056f6fbd74e",
+    "url": "/shakira-weir/static/media/fa-regular-400.f6c6f6c8.ttf"
   },
   {
     "revision": "4b115e1153a9ea339d6a0bb284cc8ed3",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/shakira-weir/static/media/fa-solid-900.82905d8d.svg"
   },
   {
-    "revision": "ed8b7f148325db77b6f4c9e144967105",
+    "revision": "ead9061a7b3c1d8833837eb884a65f73",
     "url": "/shakira-weir/index.html"
   }
 ];
