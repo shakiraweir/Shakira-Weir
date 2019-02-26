@@ -17,6 +17,7 @@ nav {
 .greeting {
     text-transform: capitalize;
     font-family: 'Roboto', sans-serif;
+    padding-top: 30px;
     font-size: 180px;
     margin-bottom: 0;
     /* border: solid blue 1px; */

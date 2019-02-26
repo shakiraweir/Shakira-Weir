@@ -3,7 +3,7 @@ import './App.css';
 import Home from '../Home/Home'
 import { Route } from "react-router-dom"
 import About from '../About/About'
-import Contact from '../Contact/Contact'
+// import Contact from '../Contact/Contact'
 import Resume from '../Resume/Resume'
 import { Link } from 'react-router-dom';
 // import { library } from '@fortawesome/fontawesome-svg-core';
@@ -24,7 +24,7 @@ class App extends Component {
         <Route path='/profile' exact render={() => <Resume /> } />
         <Route path='/' exact render={() => <Home /> } />
         <Route path='/about' exact render={() => <About /> } />
-        <Route path='/about' exact render={() => <Contact /> } />
+        {/* <Route path='/about' exact render={() => <Contact /> } /> */}
         
       {/* </Switch> */}
       </div>

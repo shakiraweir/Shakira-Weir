@@ -41,7 +41,8 @@ class Resume extends Component {
                                             <div className="location"><i class="fas fa-map-marker-alt"></i><span>Washington, D.C.</span></div>
                 
                                             <li>Certificate in Journalism</li>
-                                            <p>University <span className="of">of</span> Massachusetts-Amherst</p>
+                                            <p>University 
+                                                <span id="of"> of</span> Massachusetts-Amherst</p>
                                             <div className="date"><i class="far fa-calendar-alt"></i><span>2018</span></div>
                                             <div className="location"><i class="fas fa-map-marker-alt"></i><span>online</span></div>
                                             
@@ -64,14 +65,55 @@ class Resume extends Component {
                                         <ul className='jobs one skills'>
                                             <div className="row">
                                                 <div className='column-one'>
-                                                    <li>Programming Languages</li>     
-                                                    <p>JavaScript</p>
+                                                    <p>Programming Languages</p>     
+                                                    <div className="skill">
+                                                        <div>
+                                                        <li>JavaScript</li>
+                                                        </div>
+
+                                                        <div>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </div>
+
                                                 </div> 
 
                                                 <div className='column-two'>
-                                                    <li>Authentication</li>
-                                                    <p>Passport</p>
-                                                    <p>Jason Web Token</p>
+                                                    <p>Authentication</p>
+                                                    
+                                                    <div className="skill">
+                                                        <div>
+                                                        <li>Passport</li>
+                                                        </div>
+
+                                                        <div>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </div>
+
+                                                    
+                                                    <div className="skill">
+                                                        <div>
+                                                        <li>Jason Web Token</li>
+                                                        </div>
+
+                                                        <div>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </div>
+
                                                 </div>
                                             </div> 
                                             <hr/>                                         
@@ -79,49 +121,342 @@ class Resume extends Component {
                                             <div className="row">
                                                 
                                                 <div className='column-one'>
-                                                    <li>Front End Development</li>
-                                                    <p>HTML5</p>
-                                                    <p>CSS3</p>
-                                                    <p>Sass</p>
-                                                    <p>Bootstrap</p>
-                                                    <p>Materialize</p>
-                                                    <p>API</p>
-                                                    <p>Handlebars</p>
-                                                    <p>React</p>
-                                                    <p>Redux</p>
+                                                    <p>Front End Development</p>
+                                                    <div className="skill">
+                                                        <div>
+                                                        <li>HTML5</li>
+                                                        </div>
+                                                        
+                                                        <div>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </div>
+
+                                                    <div className="skill">
+                                                        <div>
+                                                        <li>CSS3</li>
+                                                        </div>
+
+                                                        <div>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </div>
+
+                                                    <div className="skill">
+                                                        <div>
+                                                        <li>Sass</li>
+                                                        </div>
+
+                                                        <div>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </div>
+
+
+                                                    <div className="skill">
+                                                        <div>
+                                                        <li>Bootstrap</li>
+                                                        </div>
+
+                                                        <div>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </div>
+
+
+                                                    <div className="skill">
+                                                        <div>
+                                                        <li>Materialize</li>
+                                                        </div>
+
+                                                        <div>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </div>
+
+
+                                                    <div className="skill">
+                                                        <div>
+                                                        <li>API</li>
+                                                        </div>
+
+                                                        <div>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </div>
+
+
+                                                    <div className="skill">
+                                                        <div>
+                                                        <li>Handlebars</li>
+                                                        </div>
+
+                                                        <div>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </div>
+
+
+                                                    <div className="skill">
+                                                        <div>
+                                                        <li>React</li>
+                                                        </div>
+
+                                                        <div>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </div>
+
+
+                                                    <div className="skill">
+                                                        <div>
+                                                        <li>Redux</li>
+                                                        </div>
+
+                                                        <div>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </div>
                                                 </div> 
 
                                                 <div className='column-two'>
-                                                    <li>Back End Development</li>
-                                                    <p>NodeJS</p>
-                                                    <p>Express</p>
-                                                    <p>MVC</p>
-                                                    <p>RESTful APIs</p>
-                                                    <p>Mongoose</p>
-                                                    <p>AJAX</p>
-                                                    <p>mLab</p>
+                                                    <p>Back End Development</p>
+
+                                                    <div className="skill">
+                                                        <div>
+                                                        <li>NodeJS</li>
+                                                        </div>
+
+                                                        <div>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </div>      
+
+                                                    <div className="skill">
+                                                        <div>
+                                                        <li>Express</li>
+                                                        </div>
+
+                                                        <div>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div className="skill">
+                                                        <div>
+                                                        <li>MVC</li>
+                                                        </div>
+
+                                                        <div>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div className="skill">
+                                                        <div>
+                                                        <li>RESTful APIs</li>
+                                                        </div>
+
+                                                        <div>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div className="skill">
+                                                        <div>
+                                                        <li>Mongoose</li>
+                                                        </div>
+
+                                                        <div>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div className="skill">
+                                                        <div>
+                                                        <li>AJAX</li>
+                                                        </div>
+
+                                                        <div>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div className="skill">
+                                                        <div>
+                                                        <li>mLab</li>
+                                                        </div>
+
+                                                        <div>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </div>
                                                 </div> 
                                             </div>
                                             <hr/>   
-
-                                            {/* <hr/> */}
                                            
                                             <div className="row">
                                                 <div className='column-one'>
 
-                                                    <li>Testing</li>
-                                                    <p>Enzyme</p>
-                                                    <p>Jest</p>
+                                                    <p>Testing</p>
+                                                    
+                                                    <div className="skill">
+                                                        <div>
+                                                        <li>Enzyme</li>
+                                                        </div>
+
+                                                        <div>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </div>
+
+                                                    
+                                                    <div className="skill">
+                                                        <div>
+                                                        <li>Jesli</li>
+                                                        </div>
+
+                                                        <div>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </div>
                                                 </div> 
 
                                                 <div className='column-two'>
-                                                    <li>Development Tools</li>
-                                                    <p>Git</p>
-                                                    <p>GitHub</p>
-                                                    <p>Heroku</p>
-                                                    <p>Wireframing</p>
+                                                    <p>Development Tools</p>
+
+                                                    <div className="skill">
+                                                        <div>
+                                                        <li>Git</li>
+                                                        </div>
+
+                                                        <div>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </div>  
+
+                                                    <div className="skill">
+                                                        <div>
+                                                        <li>GitHub</li>
+                                                        </div>
+
+                                                        <div>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </div>
+
+                                                    
+                                                    <div className="skill">
+                                                        <div>
+                                                        <li>Heroku</li>
+                                                        </div>
+
+                                                        <div>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </div>
+
+                                                    
+                                                    <div className="skill">
+                                                        <div>
+                                                        <li>Wireframing</li>
+                                                        </div>
+
+                                                        <div>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        </div>
+                                                    </div>
                                                 </div> 
                                             </div>
+
                                         </ul>                 
                             </div>
                         </div>
@@ -129,26 +464,47 @@ class Resume extends Component {
                 </section>
                 </div> 
                 <div id='skills-home'>
-                <section className="colorblock-three">
+                <section className="colorblock-four">
                     <section id='contact'>
                         <h1 className="title work">Work</h1>
-    
-                        <blockquote>“The illiterate of the 21st century will not be those who cannot read and write, but those who cannot learn, unlearn and relearn.” -Alvin Toffler</blockquote>
-                        <a href="https://www.linkedin.com/in/shakiraweir/"> <i class="fab fa-linkedin fa-3x"></i> </a>
-                        <a href="https://github.com/shakiraweir"> <i class="fab fa-github fa-3x"></i> </a>
-                        <a href="mailto: shakira.r.weir@gmail.com"> <i class="far fa-envelope fa-3x"></i> </a>
+                        <div className="project-container">
+                            <div className='project-display'>
+                                <img src="https://i.imgur.com/cMWXclQ.png?1" alt="Hangman Entry Page" width='400' height='400' />
+                                <h3>Hangman</h3>
+                                <p>JavaScript | HTML | Sass | Pug | Parcel </p>
+                            </div> 
+
+                            <div className='project-display'>
+                                <img src="https://i.imgur.com/nXDMoeU.png?1" alt="Hangman Entry Page" width='400' height='400'/>
+                                <h3>Pearls of Wisdom</h3>
+                                <p>JavaScript | HTML | CSS | MongoDB | Express |  
+   NodeJS | Handlebars | Passport | API
+</p>
+                            </div>
+
+                            <div className='project-display'>
+                                <img src="https://i.imgur.com/NuhBEKB.png" alt="Hangman Entry Page"
+                                width='400' height='400' />
+                                <h3>The Fun Budget Tool</h3>
+                                <p>JavaScript | JSX | React | MongoDB | Express | NodeJS | Jason Web Token </p>
+                            </div>
+                        </div>
+
                     </section>
+
                 </section>
                 </div>
                 <div id='skills-home'>
                 <section className="colorblock-three">
                     <section id='contact'>
-                        <h1 className="title">Contact</h1>
+                        <h1 className="title contact">Contact</h1>
     
                         <blockquote>“The illiterate of the 21st century will not be those who cannot read and write, but those who cannot learn, unlearn and relearn.” -Alvin Toffler</blockquote>
-                        <a href="https://www.linkedin.com/in/shakiraweir/"> <i class="fab fa-linkedin fa-3x"></i> </a>
-                        <a href="https://github.com/shakiraweir"> <i class="fab fa-github fa-3x"></i> </a>
-                        <a href="mailto: shakira.r.weir@gmail.com"> <i class="far fa-envelope fa-3x"></i> </a>
+                        <div>
+                            <a href="https://www.linkedin.com/in/shakiraweir/"> <i class="fab fa-linkedin fa-3x"></i> </a>
+                            <a href="https://github.com/shakiraweir"> <i class="fab fa-github fa-3x"></i> </a>
+                            <a href="mailto: shakira.r.weir@gmail.com"> <i class="far fa-envelope fa-3x"></i> </a>
+                        </div>
                     </section>
                 </section>
                 </div>

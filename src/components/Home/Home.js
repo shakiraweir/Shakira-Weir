@@ -34,16 +34,7 @@ class Home extends Component {
                             </div>
                         <section className="colorblock-two"></section>
                     
-                </div>
-                <section id='contact'>
-                    <h1 className="greeting">Contact</h1>
-
-                    <blockquote>“The illiterate of the 21st century will not be those who cannot read and write, but those who cannot learn, unlearn and relearn.” -Alvin Toffler</blockquote>
-                    <a href="https://www.linkedin.com/in/shakiraweir/"> <i class="fab fa-linkedin fa-3x"></i> </a>
-                    <a href="https://github.com/shakiraweir"> <i class="fab fa-github fa-3x"></i> </a>
-                    <a href="mailto: shakira.r.weir@gmail.com"> <i class="far fa-envelope fa-3x"></i> </a>
-                </section>
-            
+                </div>          
             </div>
         );
     }
