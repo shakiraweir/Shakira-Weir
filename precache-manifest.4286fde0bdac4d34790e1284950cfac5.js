@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "017f645eb51dcc4d3522",
+    "revision": "938358dde1ce51569c37",
     "url": "/shakira-weir/static/css/main.721b8d5f.chunk.css"
   },
   {
-    "revision": "017f645eb51dcc4d3522",
-    "url": "/shakira-weir/static/js/main.017f645e.chunk.js"
+    "revision": "938358dde1ce51569c37",
+    "url": "/shakira-weir/static/js/main.938358dd.chunk.js"
   },
   {
     "revision": "0f43d5d56431b5d9c8b3",
@@ -64,12 +64,12 @@ self.__precacheManifest = [
     "url": "/shakira-weir/static/media/fa-regular-400.e7e957c8.svg"
   },
   {
-    "revision": "b5596f4d339f99e3d69bc41be78db962",
-    "url": "/shakira-weir/static/media/fa-solid-900.b5596f4d.eot"
-  },
-  {
     "revision": "b70cea0339374107969eb53e5b1f603f",
     "url": "/shakira-weir/static/media/fa-solid-900.b70cea03.ttf"
+  },
+  {
+    "revision": "b5596f4d339f99e3d69bc41be78db962",
+    "url": "/shakira-weir/static/media/fa-solid-900.b5596f4d.eot"
   },
   {
     "revision": "80533988ff5fecd5be26557d08ce8237",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/shakira-weir/static/media/fa-solid-900.82905d8d.svg"
   },
   {
-    "revision": "23db66ab3456a8d6f8415a71fe77e693",
+    "revision": "ed8b7f148325db77b6f4c9e144967105",
     "url": "/shakira-weir/index.html"
   }
 ];
