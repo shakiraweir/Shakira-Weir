@@ -15,9 +15,9 @@ class App extends Component {
       <div className="App">
            <nav>
               <ul>
-                  <li> <Link to='/' className="main-nav">Home</Link> </li>
+                  <li> <Link to='/shakira-weir' className="main-nav">Home</Link> </li>
                   <li> <Link to='/about'>About</Link> </li> 
-                  <li> <a href='/#contact'>Contact</a> </li>
+                  <li> <a href='/profile'>Contact</a> </li>
               </ul>
             </nav> 
 
