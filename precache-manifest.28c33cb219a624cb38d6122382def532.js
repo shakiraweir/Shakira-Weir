@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "cd00c19e782314036d5a",
+    "revision": "017f645eb51dcc4d3522",
     "url": "/shakira-weir/static/css/main.721b8d5f.chunk.css"
   },
   {
-    "revision": "cd00c19e782314036d5a",
-    "url": "/shakira-weir/static/js/main.cd00c19e.chunk.js"
+    "revision": "017f645eb51dcc4d3522",
+    "url": "/shakira-weir/static/js/main.017f645e.chunk.js"
   },
   {
     "revision": "0f43d5d56431b5d9c8b3",
@@ -28,12 +28,12 @@ self.__precacheManifest = [
     "url": "/shakira-weir/static/media/fa-regular-400.5dd3976c.woff"
   },
   {
-    "revision": "f6c6f6c8cb7784254ad00056f6fbd74e",
-    "url": "/shakira-weir/static/media/fa-regular-400.f6c6f6c8.ttf"
-  },
-  {
     "revision": "414ff5daad323a1c47c5177d4bd29674",
     "url": "/shakira-weir/static/media/fa-regular-400.414ff5da.eot"
+  },
+  {
+    "revision": "f6c6f6c8cb7784254ad00056f6fbd74e",
+    "url": "/shakira-weir/static/media/fa-regular-400.f6c6f6c8.ttf"
   },
   {
     "revision": "4b115e1153a9ea339d6a0bb284cc8ed3",
@@ -52,16 +52,16 @@ self.__precacheManifest = [
     "url": "/shakira-weir/static/media/fa-solid-900.61969d43.woff"
   },
   {
-    "revision": "d9d17590c975aad1be0ddab673f9c769",
-    "url": "/shakira-weir/static/media/fa-brands-400.d9d17590.eot"
+    "revision": "c39278f7abfc798a241551194f55e29f",
+    "url": "/shakira-weir/static/media/fa-brands-400.c39278f7.ttf"
   },
   {
     "revision": "e7e957c87c454bccaa3bf9fdaa6874f8",
     "url": "/shakira-weir/static/media/fa-regular-400.e7e957c8.svg"
   },
   {
-    "revision": "c39278f7abfc798a241551194f55e29f",
-    "url": "/shakira-weir/static/media/fa-brands-400.c39278f7.ttf"
+    "revision": "d9d17590c975aad1be0ddab673f9c769",
+    "url": "/shakira-weir/static/media/fa-brands-400.d9d17590.eot"
   },
   {
     "revision": "b70cea0339374107969eb53e5b1f603f",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/shakira-weir/static/media/fa-solid-900.82905d8d.svg"
   },
   {
-    "revision": "8d123516e9301f56e7df05bf41fe2868",
+    "revision": "23db66ab3456a8d6f8415a71fe77e693",
     "url": "/shakira-weir/index.html"
   }
 ];
