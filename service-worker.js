@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/shakira-weir/precache-manifest.4acfb1bc6a95a13f3d36fe483754600d.js"
+  "/shakira-weir/precache-manifest.5b0535a30285ddb8e1662ce7e466b9d7.js"
 );
 
 workbox.clientsClaim();

@@ -40,16 +40,16 @@ self.__precacheManifest = [
     "url": "/shakira-weir/static/media/fa-brands-400.4b115e11.woff2"
   },
   {
+    "revision": "462806316fea535a6a57651bc2b000b0",
+    "url": "/shakira-weir/static/media/fa-solid-900.46280631.woff2"
+  },
+  {
     "revision": "b90365bccdabd68c6c03902b4b141f09",
     "url": "/shakira-weir/static/media/fa-brands-400.b90365bc.woff"
   },
   {
     "revision": "61969d433bf265b9717a6c357a1e04e4",
     "url": "/shakira-weir/static/media/fa-solid-900.61969d43.woff"
-  },
-  {
-    "revision": "462806316fea535a6a57651bc2b000b0",
-    "url": "/shakira-weir/static/media/fa-solid-900.46280631.woff2"
   },
   {
     "revision": "c39278f7abfc798a241551194f55e29f",
